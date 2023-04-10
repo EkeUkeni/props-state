@@ -7,13 +7,6 @@ import SearchBar from './SearchBar'
 
 
 const Search = () => {
-
- 
-
-
-  const addNewtask = (task)=>{
-
-  }
   return (
     <>
       <div style={{width:"600px", display: "flex", flexDirection:"column", justifyContent:"center", padding:"40px", marginLeft: "250px"}}>
@@ -21,7 +14,7 @@ const Search = () => {
           <GoogleLogo/>
         </div>
         <div>
-          <SearchBar addNewtask={addNewtask}/>
+          <SearchBar/>
         </div>
         <div style={{display: "flex", gap: "10px", marginLeft:"150px"}}>
           <GoogleButton text={"Google Search"}/>
