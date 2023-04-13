@@ -2,8 +2,8 @@ import {useState} from 'react'
 
 const SearchBar = ( ) => {
 
-    const [inputValue, setInputValue] = useState("")// chnages what is in the input field
-    const [display, setDisplay] = useState("")// Displays the value
+    const [inputValue, setInputValue] = useState("")// changes what is in the input field
+    const [display, setDisplay] = useState("")// Displays the value in the search Bar
   
     const handleChange = (event)=>{
       const inputName = event.target.value
